@@ -1,0 +1,107 @@
+    body {
+    background: url('https://images.pexels.com/photos/29390707/pexels-photo-29390707.jpeg') no-repeat center / cover;
+    min-height: 100vh;
+  }
+
+    h1 {
+        color: cadetblue;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: underline;
+        text-shadow: aqua;
+        transition: all 0.5s ease-in-out;
+    }
+
+    h1:hover {
+        color:cornflowerblue;
+        font-size: 50px;
+    }
+
+    h2 {
+        padding: 10px;
+        margin-left: 150px;
+        color: rgb(121, 21, 172);
+        transition: all 0.5s ease;
+        text-decoration: underline;
+        font-size: 32px;
+    }
+
+    h2:hover {
+    color: darkviolet;
+    font-size: 40px;
+  }
+
+    h3 {
+        color: brown;
+        font-size: 25px;
+        text-decoration: underline;
+        transition: all 0.5s ease-in;
+
+    }
+
+    h3:hover {
+        color: crimson;
+        font-size: 30px;
+    }
+
+    p {
+        color: rgb(29, 12, 12);
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .image {
+        max-width: 40%;
+        height: auto;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .heading {
+        color: rgb(168, 11, 95);
+        font-size: 35px;
+
+    }
+
+    .heading:hover {
+        color: rgb(211, 42, 12);
+        font-size: 40px;
+    }
+
+    .sub-heading {
+        color: rgb(12, 103, 119);
+    }
+
+    .sub-heading:hover {
+        color: blue;
+    }
+
+    .best {
+        color: rgb(136, 79, 5);
+        font-size: 35px;
+
+    }
+
+    .best:hover {
+        color: rgb(192, 88, 14);
+        font-size: 40px;
+
+    }
+
+    .sub-best {
+        color: crimson;
+    }
+
+    .sub-best:hover {
+        color: deeppink;
+    }
+
+    footer {
+        border-width: 10px;
+        border-style: solid;
+        border-color: coral;
+        text-align: center;
+        background-color: darksalmon;
+
+    }
